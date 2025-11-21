@@ -26,4 +26,6 @@ jobs:
       if: success()
       with:
         name: Build
-        path: ./proxy/build/libs/*
+        path: |
+         ./proxy/build/libs/*
+         ./api/build/libs/*
